@@ -1,0 +1,63 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap');
+
+:root {
+    --cabecalho: 'Dosis', 'sans-serif';
+    --corpo: 'IBM Plex Sans Arabic', 'sans-serif' ;
+}
+
+* {
+    margin: auto;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    padding: 20px;
+    background-color: gray;
+    text-align: center;
+    margin-top: 50px;
+    width: 350px;
+}
+
+main > h1 {
+    font-family: var(--cabecalho);
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+main > p {
+    text-align: center;
+    font-family: var(--corpo);
+    font-weight: bolder;
+    padding: 5px;
+}
+
+input#peso {
+    margin-left: 11px;
+}
+
+button {
+    font-family: var(--corpo);
+    font-weight: bold;
+    text-align: center;
+    margin-left: 95px;
+    margin-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div#res {
+    font-family: var(--corpo);
+    color: white;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
